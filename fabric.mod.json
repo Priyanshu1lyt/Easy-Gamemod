@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "easygamemode",
+  "version": "${version}",
+  "name": "Easy Gamemode",
+  "description": "A simple client-side multiplayer gamemode selector.",
+  "authors": [
+    "NotHeartYT,Nebrion_verse,praveen_god_67"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.notheartyt.easygamemode.EasyGamemodeClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
